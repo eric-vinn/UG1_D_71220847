@@ -15,9 +15,15 @@ def nilai():
     UAS = ((z + c)/2)*40/100
     total = harian + UTS + UAS
     print("Total nilai yang didapat : ", total)
-    if total >= 70:
+    if total >= 80:
+        print("Total Nilai Dalam Huruf : A")
+    elif total >= 60:
         print("Total Nilai Dalam Huruf : B")
-    else:
+    elif total >= 40:
         print("Total Nilai Dalam Huruf : C")
+    elif total >= 20:
+        print("Total Nilai Dalam Huruf : D")
+    else:
+        print("Total Nilai Dalam Huruf : E")
 
 nilai()
