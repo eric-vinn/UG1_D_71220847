@@ -1,0 +1,6 @@
+x = str(input("->"))
+y = str(input("Kata yang dicari : "))
+besarkecil = x.lower()
+kecilbesar = y.lower()
+akhir = besarkecil.count(kecilbesar)
+print ("Jumlah kata yang dicari : ", akhir)

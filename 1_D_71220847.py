@@ -7,3 +7,8 @@ while True:
     if y == "no":
         print("TOTAL BELANJA : ", x)
         break
+    elif y == "yes":
+        continue
+    else:
+        print("INVALID")
+        break
